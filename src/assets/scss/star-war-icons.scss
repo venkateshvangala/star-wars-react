@@ -1,0 +1,32 @@
+@import "font-awesome/scss/font-awesome.scss";
+
+[class^="star-war-"],
+[class*="star-war-"] {
+  font-family: "fontawesome" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  //   line-height: 1;
+  /***** Better Font Rendering ******/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /**** Needed for rotation transition ****/
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+[class^="star-war-"].rotated,
+[class*=" star-war-"].rotated {
+  -ms-transform: rotate(1 fcat80deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+// ***************************** PLEASE UPDATE ALL THE ICONS FROM HERE ***********************************//
+.star-war-users:before {
+  content: "\f0c0";
+  color: #333333;
+}

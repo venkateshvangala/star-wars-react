@@ -1,0 +1,30 @@
+@import "bootstrap/scss/bootstrap.scss";
+@import "font-awesome/scss/font-awesome.scss";
+@import "./lato-fonts.scss";
+@import "./roboto-fonts.scss";
+@import "./star-war-icons.scss";
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto" !important;
+  color: #212529;
+  select,
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="number"] {
+    max-height: 38px;
+    height: 38px;
+  }
+  background-color: #f3f3f9;
+}
+
+a {
+  text-decoration: none !important;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
